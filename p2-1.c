@@ -11,7 +11,6 @@ float input[MAX_SIZE], answer; // 입력 배열과 합을 저장할 변수 선�
 int i; // 반복문에서 사용할 변수 선언
 
 void main(void) {
-    printf("[----[son seunghye] [2023078010]---]");
 
     // input 배열 초기화
     for(i = 0; i < MAX_SIZE; i++)
@@ -19,6 +18,8 @@ void main(void) {
 
     /* for checking call by reference */
     printf("--------------------------------------\n");
+    printf("[----[son seunghye] [2023078010]---]");
+
     printf(" sum1(input, MAX_SIZE) \n");
     printf("--------------------------------------\n");
     printf("input \t= %p\n", input);// 함수 호출 전 input 배열의 주소 출력
