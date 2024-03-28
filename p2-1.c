@@ -17,9 +17,8 @@ void main(void) {
         input[i] = i;
 
     /* for checking call by reference */
-    printf("--------------------------------------\n");
     printf("[----[son seunghye] [2023078010]---]");
-
+    printf("--------------------------------------\n");
     printf(" sum1(input, MAX_SIZE) \n");
     printf("--------------------------------------\n");
     printf("input \t= %p\n", input);// 함수 호출 전 input 배열의 주소 출력
